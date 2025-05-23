@@ -1,0 +1,110 @@
+
+{
+  "appTitle": "BarnebyApp - Der Erzfeind",
+  "setupScreen": {
+    "title": "Spiel einrichten",
+    "navigateToRules": "Regeln anzeigen",
+    "numberOfPlayers": "Spieleranzahl:",
+    "playerPlaceholder": "Spieler ",
+    "addPlayer": "Spieler hinzufügen",
+    "removePlayer": "Letzten Spieler entfernen",
+    "numberOfArchEnemies": "Anzahl Erzfeinde:",
+    "oneArchEnemy": "1 Erzfeind",
+    "twoArchEnemies": "2 Erzfeinde (min. 6 Spieler)",
+    "roundTime": "Rundenzeit:",
+    "hintMode": "Tipp-Modus",
+    "hintModeOn": "Tipp: AN (Erzfeind sieht Kategorie)",
+    "hintModeOff": "Tipp: AUS (Erzfeind sieht nichts)",
+    "startGame": "Spiel starten",
+    "minPlayersWarning": "Mindestens 3 Spieler benötigt.",
+    "maxPlayersWarning": "Maximal 12 Spieler erlaubt.",
+    "playerNamesMissing": "Bitte alle Spielernamen eingeben.",
+    "randomCategoryValue": "Zufall",
+    "selectCategory": "Kategorie wählen (optional):"
+  },
+  "rulesScreen": {
+    "title": "Spielregeln",
+    "welcome": "Willkommen bei \"Der Erzfeind\"! Ein Spieler ist heimlich der Erzfeind, die anderen sind Wortkenner und kennen ein geheimes Wort.",
+    "objectiveTitle": "Ziel des Spiels:",
+    "objectiveWordKnower": "Enttarnt den Erzfeind!",
+    "objectiveArchEnemy": "Bleibe unentdeckt.",
+    "gameFlowTitle": "Spielablauf:",
+    "step1Reveal": "Rollen ansehen:",
+    "step1Detail": "Jeder sieht sich geheim seine Rolle und ggf. das Geheimwort an.",
+    "step2WordRound": "Wortrunde:",
+    "step2Detail": "Reihum sagt jeder Spieler EIN Wort, das zum Geheimwort passt. Der Erzfeind muss bluffen und ein Wort nennen, das zur (ihm bekannten, falls Tipp-Modus AN) Kategorie passt, ohne zu auffällig zu sein.",
+    "step3Discussion": "Diskussion:",
+    "step3Detail": "Diskutiert frei darüber, wer sich verdächtig gemacht hat.",
+    "step4ArchEnemyGuess": "Stoppen / Aufdecken (Jederzeit):",
+    "step4Detail": "Jeder Spieler kann die Runde vorzeitig beenden, indem er \"Stop / Reveal\" drückt. Dies führt direkt zur Auflösung.",
+    "step5Resolution": "Auflösung:",
+    "step5Detail": "Nach Ablauf der Zeit oder wenn die Runde gestoppt wurde, wird aufgedeckt, wer der Erzfeind war und wie das Wort lautet."
+  },
+  "roleRevealScreen": {
+    "title": "Rollenverteilung",
+    "passToPlayer": "Gib das Gerät an {{playerName}}.",
+    "tapToSeeRole": "Karte tippen, um Rolle aufzudecken!",
+    "hintCategory": "Tipp: {{category}}",
+    "tapToContinueAfterReveal": "Karte tippen zum Verbergen & Weiter",
+    "rolesDistributed": "Rollenverteilung abgeschlossen...",
+    "startingGame": "Starte Spiel..."
+  },
+  "gameScreen": {
+    "title": "Spielrunde",
+    "adminMenuTitle": "Admin Menü",
+    "adminRestartGame": "Spiel neustarten (zum Setup)",
+    "adminEndRound": "Runde beenden (zur Auflösung)",
+    "timeRemaining": "Zeit: {{time}}s",
+    "timeUp": "Zeit um!",
+    "timeIsUpResolving": "Auflösung...",
+    "stopRoundButton": "Stop / Reveal",
+    "cancelStopButton": "Abbrechen",
+  "confirmStopPrompt": "Runde wirklich beenden?",
+    "confirmStopButton": "Bestätigen?",
+    "discussPrompt": "Diskutiert...",
+    "gamePaused": "Pausiert",
+    "pauseButton": "Pause",
+    "resumeButton": "Fortsetzen"
+  },
+  "resolutionScreen": {
+    "title": "Spielende",
+    "roundStoppedByAdmin": "Runde durch Admin beendet.",
+    "revealInfoPrompt": "Tippe, um Informationen aufzudecken:",
+    "wordWas": "Wort:",
+    "enemyWas": "Erzfeind(e):",
+    "timeUpInfo": "Zeit abgelaufen! Hier ist die Auflösung:",
+    "roundStoppedByPlayerConfirm": "Runde gestoppt. Hier ist die Auflösung:",
+    "roundEndedGeneric": "Die Runde ist beendet.",
+    "playAgain": "Nochmal spielen",
+    "revealWordButton": "Geheimwort aufdecken",
+    "revealArchEnemyButton": "Erzfeind(e) aufdecken"
+  },
+  "roles": {
+    "archEnemy": "Erzfeind",
+    "wordKnower": "Wortkenner",
+    "archEnemyUnknown": "Erzfeind nicht identifiziert"
+  },
+  "times": {
+    "30s": "30 Sek",
+    "1m": "1 Min",
+    "2m": "2 Min",
+    "3m": "3 Min"
+  },
+  "warnings": {
+    "twoArchEnemiesDisabled": "2 Erzfeinde erst ab 6 Spielern möglich."
+  },
+  "common": {
+    "cancel": "Abbrechen",
+    "close": "Schließen",
+    "confirm": "Bestätigen",
+    "loadingData": "Lade Spieldaten...",
+    "unknown": "Unbekannt",
+    "testToSetup": "TEST: Zum Setup"
+  },
+  "errors": {
+    "wordListUnavailable": "Wortlisten sind nicht verfügbar. Spiel kann nicht gestartet werden.",
+    "categoryOrWordUnavailable": "Gewählte Kategorie oder Wörter nicht verfügbar.",
+    "playerImpostorMismatch": "Nicht genügend Spieler für die gewählte Anzahl an Erzfeinden.",
+    "playerDisplayError": "Fehler bei der Spieleranzeige."
+  }
+}

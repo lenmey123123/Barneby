@@ -1,0 +1,110 @@
+
+{
+  "appTitle": "BarnebyApp - The Impostor",
+  "setupScreen": {
+    "title": "Game Setup",
+    "navigateToRules": "View Rules",
+    "numberOfPlayers": "Number of Players:",
+    "playerPlaceholder": "Player ",
+    "addPlayer": "Add Player",
+    "removePlayer": "Remove Last Player",
+    "numberOfArchEnemies": "Number of Impostors:",
+    "oneArchEnemy": "1 Impostor",
+    "twoArchEnemies": "2 Impostors (min. 6 Players)",
+    "roundTime": "Round Time:",
+    "hintMode": "Hint Mode",
+    "hintModeOn": "Hint: ON (Impostor sees category)",
+    "hintModeOff": "Hint: OFF (Impostor sees nothing)",
+    "startGame": "Start Game",
+    "minPlayersWarning": "Minimum 3 players required.",
+    "maxPlayersWarning": "Maximum 12 players allowed.",
+    "playerNamesMissing": "Please enter all player names.",
+    "randomCategoryValue": "Random",
+    "selectCategory": "Select Category (optional):"
+  },
+  "rulesScreen": {
+    "title": "Game Rules",
+    "welcome": "Welcome to \"The Impostor\"! One player is secretly the Impostor, the others are Word-Knowers and know a secret word.",
+    "objectiveTitle": "Objective of the Game:",
+    "objectiveWordKnower": "Unmask the Impostor!",
+    "objectiveArchEnemy": "Stay undetected.",
+    "gameFlowTitle": "Gameplay:",
+    "step1Reveal": "View Roles:",
+    "step1Detail": "Everyone secretly views their role and, if applicable, the secret word.",
+    "step2WordRound": "Word Round:",
+    "step2Detail": "In turns, each player says ONE word that fits the secret word. The Impostor must bluff and say a word that fits the (known to them if hint mode is ON) category without being too obvious.",
+    "step3Discussion": "Discussion:",
+    "step3Detail": "Freely discuss who made themselves suspicious.",
+    "step4ArchEnemyGuess": "Stop / Reveal (Anytime):",
+    "step4Detail": "Any player can end the round prematurely by pressing \"Stop / Reveal\". This leads directly to the resolution.",
+    "step5Resolution": "Resolution:",
+    "step5Detail": "After the time is up or the round is stopped, it's revealed who the Impostor was and what the word is."
+  },
+  "roleRevealScreen": {
+    "title": "Role Reveal",
+    "passToPlayer": "Pass the device to {{playerName}}.",
+    "tapToSeeRole": "Tap card to reveal your role!",
+    "hintCategory": "Hint: {{category}}",
+    "tapToContinueAfterReveal": "Tap card to hide & continue",
+    "rolesDistributed": "Role distribution complete...",
+    "startingGame": "Starting game..."
+  },
+  "gameScreen": {
+    "title": "Game Round",
+    "adminMenuTitle": "Admin Menu",
+    "adminRestartGame": "Restart Game (to Setup)",
+    "adminEndRound": "End Round Now (to Resolution)",
+    "cancelStopButton": "Cancel",
+    "confirmStopPrompt": "Confirm to stop the round?", 
+    "timeRemaining": "Time: {{time}}s",
+    "timeUp": "Time's Up!",
+    "timeIsUpResolving": "Resolving...",
+    "stopRoundButton": "Stop / Reveal",
+    "confirmStopButton": "Confirm?",
+    "discussPrompt": "Discuss...",
+    "gamePaused": "Paused",
+    "pauseButton": "Pause",
+    "resumeButton": "Resume"
+  },
+  "resolutionScreen": {
+    "title": "Game Over",
+    "revealInfoPrompt": "Tap to reveal information:",
+    "wordWas": "Word:",
+    "roundStoppedByAdmin": "Round ended by admin.",
+    "enemyWas": "Impostor(s):",
+    "timeUpInfo": "Time ran out! Here's the reveal:",
+    "roundStoppedByPlayerConfirm": "Round stopped. Here's the reveal:",
+    "roundEndedGeneric": "The round has ended.",
+    "playAgain": "Play Again",
+    "revealWordButton": "Reveal Secret Word",
+    "revealArchEnemyButton": "Reveal Impostor(s)"
+  },
+  "roles": {
+    "archEnemy": "Impostor",
+    "wordKnower": "Word-Knower",
+    "archEnemyUnknown": "Impostor not identified"
+  },
+  "times": {
+    "30s": "30 Sec",
+    "1m": "1 Min",
+    "2m": "2 Min",
+    "3m": "3 Min"
+  },
+  "warnings": {
+    "twoArchEnemiesDisabled": "2 Impostors only available with 6+ players."
+  },
+  "common": {
+    "cancel": "Cancel",
+    "close": "Close",
+    "confirm": "Confirm",
+    "loadingData": "Loading game data...",
+    "unknown": "Unknown",
+    "testToSetup": "TEST: To Setup"
+  },
+  "errors": {
+    "wordListUnavailable": "Word lists are unavailable. Cannot start game.",
+    "categoryOrWordUnavailable": "Selected category or words are unavailable.",
+    "playerImpostorMismatch": "Not enough players for the selected number of impostors.",
+    "playerDisplayError": "Error displaying player."
+  }
+}
